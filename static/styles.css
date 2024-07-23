@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.note-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.note-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.note-card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.note-card .card-body {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #555;
+}
+
+.card-text small {
+    color: #6c757d;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-top: 1px solid #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-footer .username {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.card-footer .pfp {
+    display: flex;
+    align-items: center;
+}
+
+.card-footer .pfp img {
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.btn-link {
+    color: #007bff;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
